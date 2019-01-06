@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/12/4 11:29:37。
+     1>项目“D:\c++测试实验\AES\BinLinker\BinLinker.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\c++测试实验\AES\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\BinLinker.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D"_CRT_SECURE_NO_WARNINGS" BinLinker.cpp
+         BinLinker.cpp
+     1>d:\c++测试实验\aes\binlinker\binlinker.cpp(672): warning C4101: “pAppFile”: 未引用的局部变量
+     1>d:\c++测试实验\aes\binlinker\binlinker.cpp(673): warning C4101: “vAppSize”: 未引用的局部变量
+     1>d:\c++测试实验\aes\binlinker\binlinker.cpp(669): warning C4101: “pAppPath”: 未引用的局部变量
+       Link:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\c++测试实验\AES\Debug\BinLinker.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\c++测试实验\AES\Libarary" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\c++测试实验\AES\Debug\BinLinker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\c++测试实验\AES\Debug\BinLinker.lib" /MACHINE:X86 /verbose:lib Debug\BinLinker.obj
+         Debug\stdafx.obj
+         BinLinker.vcxproj -> D:\c++测试实验\AES\Debug\BinLinker.exe
+     1>已完成生成项目“D:\c++测试实验\AES\BinLinker\BinLinker.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.90
